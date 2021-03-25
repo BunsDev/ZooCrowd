@@ -3,7 +3,7 @@ pragma solidity ^0.8.2;
 
 
 // ZOO Charity is a decentralized crowdfunding application. Anyone can start fundraising for local animal shelters / people in need / endangered species saving campaigns.
-// Fundraising may be running for up to 30 days. If it didn't reach the desired goal, donators may refund their ZooCoins. If it succeeds, raised funds are being transfered to campaign creator.
+// Fundraising may be running for up to 30 days. If it didn't reach the desired goal in time, donators may refund their ZooCoins. If it succeeds, raised funds are being transfered to campaign creator.
 
 abstract contract Context {
     function _msgSender() internal view virtual returns (address) {
